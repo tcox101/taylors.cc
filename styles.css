@@ -93,7 +93,7 @@ footer {
 
 /* HEADINGS */
 h1, h2 {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Pacifico';
   color: #ff33cc;
   text-shadow: 1px 1px 3px #ffccff;
 }
@@ -208,7 +208,7 @@ table.sparkle-table tr:hover {
 }
 
 .gallery-section h2 {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Pacifico';
   font-size: 2rem;
   color: #ff33cc;
   margin-bottom: 0.3rem;
