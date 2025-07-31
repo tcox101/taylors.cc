@@ -1,0 +1,332 @@
+/* --- Taylor's Creative Corner CSS --- */
+/* Bright, bubbly, glittery chaos with artsy girlie vibes */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comic Sans MS', 'Comic Neue', cursive;
+  background: linear-gradient(to bottom, #fff0f5, #ffe4f7);
+  color: #333;
+}
+
+/* HEADER */
+header {
+  background-color: #ff80cc;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(255, 0, 150, 0.3);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ff80cc;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(255, 0, 150, 0.3);
+}
+
+header img {
+  height: 80px;
+  margin: 0 0 0 20px;
+  order: 2;
+}
+
+header h1, header p {
+  order: 1;
+  flex: 1;
+  text-align: left;
+}
+
+/* NAVIGATION */
+nav {
+  background-color: #ffccee;
+  padding: 1rem;
+  text-align: center;
+  border-top: 3px dotted #ff99ff;
+  border-bottom: 3px dotted #ff99ff;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ff33cc;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  color: #fff;
+  background-color: #ff33cc;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+/* MAIN CONTENT */
+section {
+  padding: 2rem;
+  background: #ffffffd0;
+}
+
+article {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 4px dashed #ff99ff;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 0 15px #ff99cc66;
+}
+
+/* FOOTER */
+footer {
+  background-color: #ccfff5;
+  color: #444;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  border-top: 2px solid #99ffee;
+}
+
+/* HEADINGS */
+h1, h2 {
+  font-family: 'Pacifico', cursive;
+  color: #ff33cc;
+  text-shadow: 1px 1px 3px #ffccff;
+}
+
+/* BUBBLE EFFECT FOR FUN */
+h1::after {
+  content: ' 💖';
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* Optional cute button style */
+button {
+  background: #ff66cc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff33aa;
+}
+
+/* Sparkly table styling for About Me */
+table.sparkle-table {
+  width: 100%;
+  max-width: 700px;
+  margin: 2rem auto;
+  border-collapse: collapse;
+  background-color: #fff0fb;
+  box-shadow: 0 0 15px #ff99cc66;
+  border: 3px dashed #ff66cc;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+table.sparkle-table th,
+table.sparkle-table td {
+  padding: 1rem;
+  text-align: left;
+  font-family: 'Comic Neue', cursive;
+  font-size: 1rem;
+}
+
+table.sparkle-table th {
+  background-color: #ffccee;
+  color: #ff33cc;
+  font-size: 1.1rem;
+  border-bottom: 2px solid #ff99cc;
+}
+
+table.sparkle-table tr:nth-child(even) {
+  background-color: #fff8ff;
+}
+
+table.sparkle-table tr:hover {
+  background-color: #ffe6f2;
+}
+
+/* Specialties Graphic Card Layout */
+.specialty-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem 1rem;
+}
+
+.specialty-card {
+  background: linear-gradient(145deg, #ffe4fa, #fff0f8);
+  border: 3px dashed #ff99cc;
+  border-radius: 20px;
+  padding: 1.5rem;
+  box-shadow: 0 0 10px #ffccff80;
+  transition: transform 0.2s ease-in-out;
+}
+
+.specialty-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #ff66cc99;
+}
+
+.specialty-card h3 {
+  margin-top: 0;
+  font-family: 'Pacifico', cursive;
+  color: #ff33cc;
+  font-size: 1.3rem;
+  text-shadow: 1px 1px #fff;
+}
+
+.specialty-card p {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: #555;
+}
+
+.intro-text {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #990099;
+}
+
+/* GALLERY SECTION STYLING */
+.gallery-section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.gallery-section h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem;
+  color: #ff33cc;
+  margin-bottom: 0.3rem;
+}
+
+.gallery-desc {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+/* FLEXIBLE GRID */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  padding: 0 1rem;
+}
+
+/* IMAGE STYLING WITH HOVER EFFECT */
+.gallery-grid img {
+  width: 100%;
+  border-radius: 20px;
+  border: 4px solid #ffccee;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 10px #ffccee99;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px #ff66cc, 0 0 30px #ff33cc, 0 0 40px #cc00cc;
+  border-color: #ff33cc;
+}
+
+/* CONTACT PAGE FLEX LAYOUT */
+.contact-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3rem;
+  margin: 3rem auto;
+  padding: 2rem;
+  max-width: 1200px;
+}
+
+/* Responsive sides */
+.contact-info,
+.contact-form {
+  flex: 1 1 400px;
+  box-sizing: border-box;
+}
+
+/* Style the table */
+.contact-info table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff0f5;
+  border-radius: 12px;
+  box-shadow: 0 0 10px hotpink;
+  overflow: hidden;
+}
+
+.contact-info th,
+.contact-info td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #ffc0cb;
+}
+
+.contact-info th {
+  background-color: #ffccf9;
+  color: #5c005c;
+}
+
+.contact-info a {
+  color: #ff1493;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* Form extras */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #ff69b4;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  background-color: #fff;
+}
+
+.contact-form button {
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  box-shadow: 0 0 10px #ff69b4;
+  transition: all 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #ff1493;
+  transform: scale(1.05);
+}
+
+/* Center the section titles */
+.contact-wrapper h2 {
+  text-align: center;
+  color: #cc00cc;
+}
