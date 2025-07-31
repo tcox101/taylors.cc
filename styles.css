@@ -93,7 +93,7 @@ footer {
 
 /* HEADINGS */
 h1, h2 {
-  font-family: 'Pacifico',
+  font-family: 'Pacifico', cursive;
   color: #ff33cc;
   text-shadow: 1px 1px 3px #ffccff;
 }
@@ -208,7 +208,7 @@ table.sparkle-table tr:hover {
 }
 
 .gallery-section h2 {
-  font-family: 'Pacifico;
+  font-family: 'Pacifico', cursive;
   font-size: 2rem;
   color: #ff33cc;
   margin-bottom: 0.3rem;
@@ -329,4 +329,25 @@ table.sparkle-table tr:hover {
 .contact-wrapper h2 {
   text-align: center;
   color: #cc00cc;
+}
+
+/* Gallery Thumbnails */
+.image-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.thumbnail {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ff00cc;
+  transition: transform 0.3s ease;
+}
+
+.thumbnail:hover {
+  transform: scale(1.05);
 }
