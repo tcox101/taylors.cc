@@ -335,9 +335,9 @@ table.sparkle-table tr:hover {
 .image-grid {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
   flex-wrap: wrap;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .thumbnail {
